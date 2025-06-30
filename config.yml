@@ -1,0 +1,129 @@
+baseurl: "https://azufle.github.io/spatial-epi-2024/"
+title: "International Workshop on Spatial Computing for Epidemiology@ACM SIGSPATIAL 2024"
+canonifyurls: true
+theme: "hugo-conference"
+blackfriday:
+    unsafe: true
+
+GoogleAnalytics: ""
+
+params:
+  # Conference info
+  Name: "SpatialEpi@ACM SIGSPATIAL 2024"
+  Description: "International Workshop on Spatial Computing for Epidemiology@ACM SIGSPATIAL 2024"
+  Date: "October 29, 2024"
+  # Price: "Only $100" # If your event is free, just comment this line
+  Venue: "Georgia Tech Hotel and Conference Center"
+  Address: "Georgia Tech Hotel and Conference Center"
+  City:  "Atlanta, Georgia"
+  State: "United States"
+  Images: ["/img/logo.jpg"]
+  big_logo: "/images/acmsigspatial-full.png"
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - intro
+    - organizer    
+    - speakers
+    - schedule    
+    - location
+    - cfp
+    - deadline
+  #  - contact
+
+  # Titles which you can translate to other languages
+  Titles:
+    intro: "About"
+    location: "Location"
+    cfp: "Call For Papers"
+    organizer: "Organization Committee"
+    speakers: "Speakers"
+    schedule: "Schedule"
+    deadline: "Important Dates"
+    # sponsors: "Sponsors"
+    # partners: "Partners"
+    contact: "Instructions for Authors"
+
+  # The Call To Action button at the header,
+  # If you don't want this, just remove the callToAction property.
+  CallToAction:
+    text: "Register now"
+    link: ""
+
+  intro:
+    text: "The 5th ACM SIGSPATIAL International Workshop on Spatial Computing for Epidemiology (SpatialEpi’24) focuses on all aspects of modeling, simulating, mining, and understanding the spatial processes and patterns of the spread of COVID-19 and other infectious diseases. This cross-disciplinary workshop is a forum to bring together researchers in the SIGSPATIAL community as well as researchers in epidemiology. Also, this workshop is of interest to everyone who works with infectious disease data and models (not necessarily COVID19). In addition to paper presentations, this workshop will feature invited speakers keynotes from experts across the SIGSPATIAL community and epidemiology."
+
+  cfp:
+    text: "The workshop seeks high-quality full (8-10 pages) and short (4 pages) papers that have not been published in other academic outlets and are not concurrently under peer review. Once accepted, at least one author is required to register for the workshop and the ACM SIGSPATIAL conference, as well as attend the workshop to present the accepted work which will then appear in the ACM Digital Library. As SpatialEpi papers appear in the ACM SIGSPATIAL proceedings we follow the same submission process. Submission details can be found at https://sigspatial2024.sigspatial.org/camera-ready/. Following the main-conference, we also allow full papers to have a two-page appendix beyond the ten pages limit."
+    url: "https://azufle.github.io/spatial-epi-2024/files/SpatialEpi2024.pdf"
+    keywords: ["Contact Tracing", 
+    "COVID-19 Tracking and Data Collection", 
+    "COVID-19 Data Cleaning and Wrangling", 
+    "Disease Spread Simulation", "COVID-19 Data Mining", 
+    "Managing Uncertainty in COVID-19 Data", 
+    "COVID-19 Data Query Processing", "Mapping and Visual Analytics of COVID-19", 
+    "COVID-19 Effects on Human Mobility", 
+    "Prescriptive Analytics for COVID-19", 
+    "COVID-19 Hotspot Detection", 
+    "Socioeconomic Impact of COVID-19", 
+    "COVID-19 Simulation and Modeling", 
+    "Spatial Analysis of COVID-19", 
+    "COVID-19 and Social Media", 
+    "Spatially Explicit COVID-19 Prediction Models"]
+
+  organizer:
+    general_chair: ["Joon-Seok Kim (Emory University)", "Taylor Anderson (George Mason University)"]
+    pc_chair: ["Andreas Züfle (Emory University)", "Max Lau, Biostatistics, Rollins School of Public Health, Emory University", 
+    "Amira Roess (George Mason University)"]
+    pc_member: ["Song Gao (University of Wisconsin-Madison)","Alexander Hohl (The University of Utah)", "Yiqun Xie (University of Minnesota)", "Hamdi Kavak (George Mason University)", Zipei Fan (The University of Tokyo), Ignacio Segovia-Dominguez	(West Virginia University), Jia Yu (Washington State University), Su Han (Texas State University)]
+    webchair: ["Hossein Amiri (Emory University)"]
+
+    
+  deadline:
+    submission: "Extended to September 06, 2024 (anywhere on earth)"
+    notification: "September 24, 2024 (anywhere on earth)"
+    camera ready: "October 4, 2024"
+    workshopdate: "October 29, 2024"
+    submissionsite: "https://easychair.org/my/conference?conf=spatialepi24"
+    # studentgrant: "To be announced"
+
+    
+    
+  #contact:
+  
+  speakers:
+     - name: "Dr. Ben Lopman, Department of Epidemiology, Rollins School of Public Health, Emory University"
+       photo: "/images/keynote1.jpg"
+       company: "Emory University"
+       talk: 
+         title: "The Social Foundation of Contagion: Measuring Human Interactions in Infectious Disease Dynamics"
+    #     abstrct: ""
+         bio: "Dr. Ben Lopman is Professor in the Department of Epidemiology at Emory University, Rollins School of Public Health. He is an infectious disease epidemiologist with a policy-focused global and domestic research agenda. His group develops sophisticated approaches for data collection, statistical analysis, and mathematical modeling that integrate epidemiological data from clinical, observational and surveillance studies. Ben uses these approaches to develop a scientific basis for improving population health. For most of the last two decades, the public health focus of Ben's research has been on diarrheal diseases, with the specific goal of understanding the epidemiology of viral enteropathogens and developing an evidence base for their control, primarily through vaccination."
+         href: "https://www.blopman.net/"
+
+       
+  schedule:
+       - title: "Opening Remarks"
+         time: "4:00-4:10 PM"
+         file: "Frontmatter.pdf"
+       - title: "Keynote"
+         authors: "Dr. Ben Lopman, Department of Epidemiology, Rollins School of Public Health, Emory University"
+         bio: "Department of Epidemiology, Rollins School of Public Health, Emory University"
+         time: "4:10-5:00 PM"
+       - title: "Evaluating the Impact of Shape and Metric Selection on Human Perception in Geospatial Data Visualizations"
+         authors: "Nicole Schneider, Harsh Patel and Hanan Samet"
+         time: "5:00-5:20 PM"
+         file: "paper_1.pdf"
+       - title: "CyberGIS-Vis for Democratizing Access to Scalable Spatiotemporal Geovisual Analytics: A Case Study of COVID-19"
+         authors: "Su Han, Joon-Seok Kim, Yuqin Jiang, Jeon-Young Kang, Jinwoo Park, Chaeyeon Han, Alexander Michels and Shaowen Wang"
+         time: "5:20-5:35 PM"
+         file: "paper_2.pdf"
+       - title: "Comparing Associations Of Chronic Health Outcomes with SDoH Indices Using Machine Learning"
+         authors: "Vandana Gupta and Swapna Gokhale"
+         time: "5:35-5:55 PM"
+         file: "paper_3.pdf"
+       - title: "Closing Remarks"
+         time: "5:55-6:00 PM"
+         
+            
