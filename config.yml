@@ -13,8 +13,8 @@ params:
   Description: "International Workshop on Geospatial Computing for Public Health@ACM SIGSPATIAL 2025"
   Date: "TBD"
   # Price: "Only $100" # If your event is free, just comment this line
-  Venue: "TBD"
-  Address: "TBD"
+  Venue: "Graduate by Hilton Minneapolis"
+  Address: "615 Washington Ave SE"
   City:  "Minneapolis, MN"
   State: "United States"
   Images: ["/img/logo.jpg"]
