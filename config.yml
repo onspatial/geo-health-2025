@@ -11,7 +11,7 @@ params:
   # Conference info
   Name: "GeoHealth@ACM SIGSPATIAL 2025"
   Description: "International Workshop on Geospatial Computing for Public Health@ACM SIGSPATIAL 2025"
-  Date: "TBD"
+  Date: "Monday November 3, 2025"
   # Price: "Only $100" # If your event is free, just comment this line
   Venue: "Graduate by Hilton Minneapolis"
   Address: "615 Washington Ave SE"
@@ -38,8 +38,8 @@ params:
     location: "Location"
     cfp: "Call For Papers"
     organizer: "Organization Committee"
-    # speakers: "Speakers"
-    # schedule: "Schedule"
+    speakers: "Speakers"
+    schedule: "Schedule"
     deadline: "Important Dates"
     # sponsors: "Sponsors"
     # partners: "Partners"
