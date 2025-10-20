@@ -105,29 +105,41 @@ params:
     
   #contact:
   
-  # speakers:
-  #    - name: "TBD"
-  #      photo: "/images/keynote1.jpg"
-  #      company: "TBD"
-  #      talk: 
-  #        title: "TBD"
-  #   #     abstrct: ""
-  #        bio: "TBD"
+  speakers:
+     - name: "Associate Professor Dr. Taylor Anderson, George Mason University, Department of Geography and Geoinformation Science"
+       photo: "/images/keynote1.jpg"
+       company: "George Mason University"
+       talk: 
+         title: "Modeling Spatial Heterogeneity in Health Behaviors and Disease Dynamics"
+         abstrct: "Human behavior and disease outcomes are tightly coupled, making the inclusion of behavior in models of disease spread essential. Yet this remains a major challenge: limited data often force models to make simplifying assumptions about the health behaviors that drive local differences in disease trajectories. This talk focuses on methods for estimating health behaviors and disease outcomes at fine geographic scales to address this gap. Approaches for generating synthetic populations that embed behavioral and health attributes, and how these data can inform more realistic simulation modeling and small-area estimation are discussed. Together, these advances illustrate how explicitly representing spatial heterogeneity in both people and place can improve the practical utility of models for public health decision-making."
+         bio: "Taylor Anderson is an Associate Professor in the Department of Geography and Geoinformation Science. She received her Ph.D. in Geography at Simon Fraser University, Canada. Her research lies at the intersection of Geographic Information Science (GISc) and urban health. Specifically, Dr. Anderson investigates the role of novel data-driven modeling and simulation approaches to better explain disease prevalence, predict future trajectories of disease, and improve public health response to diseases in both ecological and human systems. These approaches have been applied to complex problems of invasive species, infectious respiratory diseases, and non-communicable diseases."
 
        
-  # schedule:
-  #      - title: "Opening Remarks"
-  #        time: "4:00-4:10 PM"
-  #        file: "Frontmatter.pdf"
-  #      - title: "Keynote"
-  #        authors: "TBD"
-  #        bio: "Department of Epidemiology, Rollins School of Public Health, Emory University"
-  #        time: "4:10-5:00 PM"
-  #      - title: "TBD"
-  #        authors: "TBD"
-  #        time: "5:00-5:20 PM"
-  #        file: "paper_1.pdf"
-  #      - title: "Closing Remarks"
-  #        time: "5:55-6:00 PM"
+  schedule:
+       - title: "Opening Remarks (Session Chair: Joon-Seok)"
+         time: "8:00-8:05 AM"
+         file: "Frontmatter.pdf"
+       - title: "Generating and Understanding Large Datasets of Social Contact Patterns from Foot-Traffic Data"
+         authors: "Hossein Amiri, James Song, Li Xiong, Andreas Züfle"
+         time: "8:05-8:20 AM"
+         # file: "paper_1.pdf"
+       - title: "Keynote"
+         authors: "Associate Professor Dr. Taylor Anderson"
+         bio: "Department of Geography and Geoinformation Science, George Mason University,"
+         time: "8:20-9:05 AM"
+       - title: "High‑Spatiotemporal‑Resolution PM2.5 Mapping in California: 6‑Hourly Estimates with 3‑km HRRR‑Smoke"
+         authors: "Zhiqing Huang, Song Gao, Qunying Huang"
+         time: "9:05-9:20 AM"
+         # file: "paper_1.pdf"
+       - title: "Equitable Access to Urgent Care: Examining Transportation Inequities and Social Vulnerabilities in Chicago through GIS"
+         authors: "Emily Pokras"
+         time: "9:20-9:40 AM"
+         # file: "paper_1.pdf"
+       - title: "Mapping HIV Vulnerability: The Role of PrEP Accessibility and Economic Inequality in Atlanta, Georgia"
+         authors: "Su Yeon Han, Jeon-Young Kang, Andreas Züfle, Joon-Seok Kim"
+         time: "9:40-9:55 AM"
+         # file: "paper_1.pdf"
+       - title: "Closing Remarks"
+         time: "9:55-10:00 AM"
          
             
